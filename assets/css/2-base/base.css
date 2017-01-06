@@ -32,7 +32,7 @@ h2 {
 h3 {
   color: #f7941e;
 }
-aside h4 {
+h4 {
   color: #20b7ce;
 }
 
@@ -77,7 +77,10 @@ h2 {
   }
 
 /* ------- Estrutura -------- */
-
+  
+  section {
+    margin: 20px 0;
+  }
 
   .container {
     margin: 0 auto;
