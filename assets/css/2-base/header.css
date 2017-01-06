@@ -82,6 +82,7 @@ nav.site-nav > ul > li > a {
 ul.breadcrumb {
     margin: 16px 0 16px 20px;
     float: left;
+    width: 730px;
 }
 ul.breadcrumb > li {
 	display: inline;
