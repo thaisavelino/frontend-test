@@ -36,7 +36,7 @@ nav.site-nav > ul {
 
 nav.site-nav > ul > li {
 	display: inline;
-	padding: 0 20px;
+	padding: 0px 20px;
     border-right: solid 1px #C9C9C9;
 }
 
@@ -52,15 +52,27 @@ nav.site-nav > ul > li > a {
 
 
 /*  --------- Botão --------*/
+
+.home-header-wrap { /*para ajustar a posição do elemento button*/
+	position: relative;
+}
+
 .home-wrap header > .container > button {
-	float: right;
-    padding: 8px 30px;
-    border-radius: 5px;
-    border-style: none;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 800;
-    background-color: #f7941e;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 10px 0;
+	padding: 4px 25px;
+	border-radius: 5px;
+	border-style: none;
+	background-color: #f7941e;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 800; 
+}
+
+.home-wrap header > .container > button:after {
+	content: " >";
 }
 
 
