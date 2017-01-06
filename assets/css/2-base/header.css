@@ -1,6 +1,7 @@
 
 .home-wrap header {
-  background-color: #eeeeee;
+  background-color: #C9C9C9;
+  color: red;
   display: inline;
   padding: 0;
   margin: 0;
@@ -22,10 +23,20 @@
 	background-size: 60px;
 }
 
-.home-wrap header > nav > ul > li {
+/* ----------- Menu -------------*/
+
+.site-nav nav > ul {
+	list-style: none;
+	margin-left: 20px;
+	padding: 0 20px;
+}
+
+
+.site-nav nav > ul > li {
 	display: inline;
 }
 
+/*  --------- Botão --------*/
 .home-wrap header > button {
 	float: right;
 }
