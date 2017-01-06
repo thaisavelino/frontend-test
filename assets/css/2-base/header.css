@@ -1,0 +1,32 @@
+
+.home-wrap header {
+  background-color: #eeeeee;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+
+.home-wrap header > h1 {
+
+}
+
+.logo {
+	background-image: url('../../svgs/logo.svg');
+	background-repeat: no-repeat;
+	float: left;
+	background-color: #ffffff;
+	height: 100px;
+	padding: 0;
+	margin: 0;
+	background-size: 60px;
+}
+
+.home-wrap header > nav > ul > li {
+	display: inline;
+}
+
+.home-wrap header > button {
+	float: right;
+}
+

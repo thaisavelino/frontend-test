@@ -1,0 +1,113 @@
+
+body {
+  background: #ccc;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #898989;
+  border-color: #c9c9c9;
+}
+
+/* --------- Cores --------- */
+
+h2 {
+  color: #ec007a;
+}
+h3 {
+  color: #f7941e;
+}
+aside h4 {
+  color: #20b7ce;
+}
+
+footer {
+  background-color: #c9c9c9;
+}
+
+
+
+/* --------- Textos ------------ */
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  padding: 50px 0 0;
+  line-height: 1;
+}
+
+/* ------- Estrutura -------- */
+
+.container {
+  width: 960px;
+  margin: auto;
+  /*clearfix*/
+}
+
+  /* ------ colunas -------- */
+
+
+ .col {
+    box-sizing: border-box;
+    float: left;
+    display: block;
+    padding: 0 1,041666666666667%;
+  }
+  .col:first-child { /*exceto IE6*/
+    padding-left: 0;
+  }
+
+  .col:last-child { /*exceto IE6*/
+    padding-right: 0;
+  }
+
+    /* ---- Divisões das colunas ----*/
+    .grid-4-12 {
+      width: 25%;
+    }
+
+   .grid-6-12 {
+      width: 50%;
+    }
+
+    .grid-9-12 {
+      width: 106,6666666666667%;
+    }
+
+    .grid-12-12 {
+      width: 100%;
+    }
+
+
+
+  /* ---------- Responsivo ---------------- */
+
+
+  /* Ajusta o tamanho do container ao tamanho da tela
+     Quando as telas forem entre 640 e 960px*/
+  @media (max-width: 960px) and (min-width: 640px) {
+    .container {
+      width: auto;
+    }
+  }
+
+  @media (max-width: 640px) and (min-width: 480px) {
+    .container {
+      width: auto;
+    }
+  }
+
+  /* exibe tudo em 1 única coluna em telas menores que 480 pixels */
+
+
+  @media (max-width: 480px) {
+    .container {
+      width: auto;
+    }
+    .grid-4-12, .grid-6-12, .grid-9-12, .grid-12-12 {
+      width: auto;
+      float: none;
+    }
+  }
+
+
+
