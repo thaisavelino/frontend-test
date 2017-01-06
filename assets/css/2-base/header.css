@@ -1,43 +1,90 @@
 
 .home-wrap header {
-  background-color: #C9C9C9;
-  color: red;
-  display: inline;
-  padding: 0;
-  margin: 0;
-}
-
-
-.home-wrap header > h1 {
-
-}
-
-.logo {
-	background-image: url('../../svgs/logo.svg');
-	background-repeat: no-repeat;
-	float: left;
-	background-color: #ffffff;
-	height: 100px;
 	padding: 0;
 	margin: 0;
-	background-size: 60px;
+	height: 45px;
+	width: 100%;
+	background-color: #eeeeee;
 }
+
+
+.logo {
+	text-indent: -9999px;
+	height: 90px;
+	width: 90px;
+	background-image: url('../../svgs/logo.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60px;
+	background-color: #ffffff;
+    float: left;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+	
 
 /* ----------- Menu -------------*/
 
-.site-nav nav > ul {
+.site-nav {
+	
+
+}
+nav.site-nav > ul {
 	list-style: none;
-	margin-left: 20px;
-	padding: 0 20px;
+    margin: 10px 0;
 }
 
 
-.site-nav nav > ul > li {
+nav.site-nav > ul > li {
 	display: inline;
+	padding: 0 20px;
+    border-right: solid 1px #C9C9C9;
 }
+
+nav.site-nav > ul > li:last-child {
+    border-right: none;
+}
+
+nav.site-nav > ul > li > a {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+
 
 /*  --------- Botão --------*/
-.home-wrap header > button {
+.home-wrap header > .container > button {
 	float: right;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border-style: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: #f7941e;
 }
 
+
+/* -------- Breadcrumb ------- */
+
+ul.breadcrumb {
+    margin: 16px 0 16px 20px;
+    float: left;
+}
+ul.breadcrumb > li {
+	display: inline;
+	padding: 0;
+}
+
+ul.breadcrumb > li > a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    color: #898989;
+}
+ul.breadcrumb > li > a:after {
+    content: " >";
+}
+
+ul.breadcrumb > li > a:after:last-child {
+    content: "";
+}

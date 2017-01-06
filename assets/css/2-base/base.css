@@ -1,18 +1,30 @@
 
-body {
+
+/* ------------ Setup básico -------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
   background: #fff;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 18px;
   color: #898989;
   border-color: #c9c9c9;
+/*  text-rendering: optimizeLegibility;
+  overflow-x: hidden;*/
 }
+
+/* --------- Cores --------- */
 
 a {
   color: #898989;
   text-decoration: none;
 }
-
-/* --------- Cores --------- */
 
 h2 {
   color: #ec007a;
@@ -42,11 +54,29 @@ h2 {
 
 /* ------- Estrutura -------- */
 
+/*
 .container {
   width: 960px;
   margin: auto;
-  /*clearfix*/
+  /*clearfix
 }
+*/
+
+.container {
+  margin: 0 auto;
+  /*padding: 50px;*/
+  box-sizing: border-box;
+  max-width: 960px;
+  zoom: 1;
+}
+
+  .container:before, .container:after {
+    content: " ";
+    display: table;
+  }
+
+  .container:after {
+    clear: both; }
 
   /* ------ colunas -------- */
 
