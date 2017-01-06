@@ -58,5 +58,38 @@ section.banner-highligh {
 .submenu-home ul li {
 	margin-top: 10px;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 14px
 }
+
+/* -------- conteúdo central -------- */
+
+.home-main-content{
+
+}
+.home-main-content h2 {
+	border-bottom: 1px solid #C9C9C9;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.home-main-content p {
+    margin: 20px 0;
+}
+
+/* gato */
+.home-main-content img {
+	width: 100%;
+}
+
+/* -------- Banner Estático -------- */
+
+.banner-static {
+	margin: 20px 0;
+}
+
+.banner-static img {
+	width: 100%;
+}
+
+
+/* -------- Itens -------- */

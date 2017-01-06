@@ -19,38 +19,46 @@ html, body {
   overflow-x: hidden;*/
 }
 
-/* --------- Cores --------- */
+footer {
+  background-color: #c9c9c9;
+}
+
+
+/* --------- Textos ------------ */
 
 a {
   color: #898989;
   text-decoration: none;
 }
 
-h2 {
-  color: #ec007a;
+p {
+  font-weight: 400;
+  font-size: 16px;
 }
-h3 {
-  color: #f7941e;
-}
-h4 {
-  color: #20b7ce;
-}
-
-footer {
-  background-color: #c9c9c9;
-}
-
-
-
-/* --------- Textos ------------ */
 
 h2 {
-  text-align: center;
+  font-weight: 300;
   font-size: 20px;
+  color: #ec007a;
+  text-align: left;
+  font-size: 20px 0 0;
+  border-bottom: 1px solid #C9C9C9;
+  padding-bottom: 20px;
   margin: 0;
-  padding: 50px 0 0;
   line-height: 1;
 }
+h3 {
+  font-weight: 300;
+  font-size: 20px;
+  color: #f7941e;
+}
+
+h4 {
+  color: #20b7ce;
+  font-weight: 800;
+  font-size: 14px;
+}
+
 /* -------- Posições -------- */
 
   .left {
@@ -78,16 +86,20 @@ h2 {
 
 /* ------- Estrutura -------- */
   
-  section {
-    margin: 20px 0;
-  }
-
+ 
   .container {
     margin: 0 auto;
     /*padding: 50px;*/
     box-sizing: border-box;
     max-width: 960px;
   }
+
+   section.container {
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
 
   /*  .container:before, .container:after {
       content: " ";
@@ -116,7 +128,7 @@ h2 {
   }
 
     /* ---- Divisões das colunas ----*/
-    .grid-4-12 {
+    .grid-3-12 {
       width: 25%;
     }
 

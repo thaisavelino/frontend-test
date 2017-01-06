@@ -56,9 +56,11 @@ nav.site-nav > ul > li > a {
 
 .home-header-wrap { 
 	position: relative; /*para ajustar a posição do elemento button*/
+	margin:	0 auto;
+	max-width: 960px;
 }
 
-.home-wrap header > .header-style > .container > button {
+.home-header-wrap >  button {
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -72,7 +74,7 @@ nav.site-nav > ul > li > a {
 	font-weight: 800; 
 }
 
-.home-wrap header > .container > button:after {
+.home-header-wrap > button:after {
 	content: " >";
 }
 
