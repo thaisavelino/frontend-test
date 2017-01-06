@@ -1,12 +1,14 @@
 
 .home-wrap header {
 	padding: 0;
-	margin: 0;
-	height: 45px;
+	margin: 0 0 20px 0;
+	height: 90px;
+}
+header .header-style {
 	width: 100%;
 	background-color: #eeeeee;
+	height: 45px;
 }
-
 
 .logo {
 	text-indent: -9999px;
@@ -25,8 +27,7 @@
 /* ----------- Menu -------------*/
 
 .site-nav {
-	
-
+	float: left;
 }
 nav.site-nav > ul {
 	list-style: none;
@@ -53,11 +54,11 @@ nav.site-nav > ul > li > a {
 
 /*  --------- Botão --------*/
 
-.home-header-wrap { /*para ajustar a posição do elemento button*/
-	position: relative;
+.home-header-wrap { 
+	position: relative; /*para ajustar a posição do elemento button*/
 }
 
-.home-wrap header > .container > button {
+.home-wrap header > .header-style > .container > button {
 	position: absolute;
 	right: 0;
 	top: 0;

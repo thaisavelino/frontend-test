@@ -51,32 +51,49 @@ h2 {
   padding: 50px 0 0;
   line-height: 1;
 }
+/* -------- Posições -------- */
+
+  .left {
+    float: left;
+  }
+
+
+  .right {
+    float: right;
+  }
+
+  /* Solucionar problemas de floats, como colapse em elementos block */
+
+  .clearfix:before, .clearfix:after {
+      content: " ";
+      display: block;
+    }
+
+  .clearfix:after {
+      clear: both;
+  }
+  .clearfix {
+    *zoom:1; /* IE6 IE7*/
+  }
 
 /* ------- Estrutura -------- */
 
-/*
-.container {
-  width: 960px;
-  margin: auto;
-  /*clearfix
-}
-*/
 
-.container {
-  margin: 0 auto;
-  /*padding: 50px;*/
-  box-sizing: border-box;
-  max-width: 960px;
-  zoom: 1;
-}
-
-  .container:before, .container:after {
-    content: " ";
-    display: table;
+  .container {
+    margin: 0 auto;
+    /*padding: 50px;*/
+    box-sizing: border-box;
+    max-width: 960px;
   }
 
-  .container:after {
-    clear: both; }
+  /*  .container:before, .container:after {
+      content: " ";
+      display: table;
+    }
+
+    .container:after {
+      clear: both; }
+  */
 
   /* ------ colunas -------- */
 
@@ -85,7 +102,7 @@ h2 {
     box-sizing: border-box;
     float: left;
     display: block;
-    padding: 0 1,041666666666667%;
+    padding: 0 1.041666666666667%;
   }
   .col:first-child { /*exceto IE6*/
     padding-left: 0;
@@ -105,7 +122,7 @@ h2 {
     }
 
     .grid-9-12 {
-      width: 106,6666666666667%;
+      width: 75%;
     }
 
     .grid-12-12 {
@@ -114,7 +131,7 @@ h2 {
 
 
 
-  /* ---------- Responsivo ---------------- */
+  /* ---------- Responsivo Media Queries ---------------- */
 
 
   /* Ajusta o tamanho do container ao tamanho da tela
@@ -139,7 +156,7 @@ h2 {
       width: auto;
     }
     .grid-4-12, .grid-6-12, .grid-9-12, .grid-12-12 {
-      width: auto;
+      width: 100%;
       float: none;
     }
   }
