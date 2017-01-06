@@ -39,6 +39,8 @@ section.banner-highligh {
 .submenu-home ul li h4, .submenu-home ul li h4 a {
 	padding: 10px 0 0;
   	color: #20b7ce;
+  	font-weight: 800;
+  	font-size: 14px;
 }
 
 .submenu-home ul li h4:before {
@@ -55,4 +57,6 @@ section.banner-highligh {
 
 .submenu-home ul li {
 	margin-top: 10px;
+	font-weight: 400;
+	font-size: 14px;
 }
