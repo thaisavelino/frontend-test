@@ -1,0 +1,108 @@
+
+footer {
+  background-color: #eeeeee;
+  height: 100%;
+  margin-top: 40px;
+}
+
+section.footer-wrap {
+    margin: 0 auto;
+    height: 315px;
+}
+
+.footer-nav {
+
+}
+
+.footer-nav > section > nav {
+	display: block;
+}
+
+section.footer-nav {
+	margin-top: 40px;
+}
+.footer-nav h1 {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0;
+}
+.footer-nav h2 {
+	font-size: 16px;
+	font-weight: 800;
+	color: #898989;
+	border: none;
+	padding: 20px 0;
+}
+
+.footer-nav ul li a {
+	font-size: 13px;
+	font-weight: 400;
+}
+.general-link {
+	font-size: 13px;
+	font-weight: 800;
+}
+.institutional-nav {
+	border-top: 1px solid #C9C9C9;
+	margin: 30px auto 0 auto;
+}
+.institutional-nav ul {
+	padding: 30px 0;
+}
+.institutional-nav ul li {
+	display: inline-block;
+}
+
+.institutional-nav > ul > li {
+	display: inline;
+	padding: 0px 20px;
+    border-right: solid 1px #C9C9C9;
+}
+
+.institutional-nav > ul > li:last-child {
+    border-right: none;
+}
+
+/* logos area */
+
+section.footer-logos {
+	margin-top: 40px;
+}
+
+.footer-logos > h2 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #898989;
+	margin: 0 0 10px 0;
+	padding: 0;
+	border: none;
+}
+
+
+.logos-wrap {
+	margin: 30px 0;
+}
+.logos-wrap img {
+	display: block;
+	margin-top: 20px;
+}
+
+
+/* copyright area*/
+.copyright {
+	width: 100%;
+	background-color: #c9c9c9;
+	height: 130px;
+	position: relative;
+	bottom: 0;
+	padding: 30px 0 80px 0;
+}
+
+.copyright p {
+	font-weight: 300;
+	font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+

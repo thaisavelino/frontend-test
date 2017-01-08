@@ -50,7 +50,9 @@ nav.site-nav > ul > li > a {
 	font-size: 16px;
 }
 
-
+.site-nav a:hover {
+	color: #f7941e;
+} 
 
 /*  --------- Botão --------*/
 
@@ -69,14 +71,23 @@ nav.site-nav > ul > li > a {
 	border-radius: 5px;
 	border-style: none;
 	background-color: #f7941e;
+}
+
+.home-header-wrap >  button:hover {
+	background-color: rgba(247, 148, 30, 0.8);
+	border: 1px solid #f7941e;
+}
+
+.home-header-wrap >  button > a {
 	color: #ffffff;
 	font-size: 16px;
 	font-weight: 800; 
 }
 
-.home-header-wrap > button:after {
+.home-header-wrap > button > a:after {
 	content: " >";
 }
+
 
 
 /* -------- Breadcrumb ------- */

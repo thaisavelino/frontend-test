@@ -19,9 +19,7 @@ html, body {
   overflow-x: hidden;*/
 }
 
-footer {
-  background-color: #c9c9c9;
-}
+
 
 
 /* --------- Textos ------------ */
@@ -34,6 +32,7 @@ a {
 p {
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
 }
 
 h2 {
@@ -83,6 +82,7 @@ h4 {
   .clearfix {
     *zoom:1; /* IE6 IE7*/
   }
+
 
 /* ------- Estrutura -------- */
   
@@ -144,6 +144,12 @@ h4 {
       width: 100%;
     }
 
+/* ------- Ajustes ------- */
+  
+  .margin-left {
+    margin-left: 10px;
+  }
+
 
 
   /* ---------- Responsivo Media Queries ---------------- */
@@ -152,9 +158,26 @@ h4 {
   /* Ajusta o tamanho do container ao tamanho da tela
      Quando as telas forem entre 640 e 960px*/
   @media (max-width: 960px) and (min-width: 640px) {
-    .container {
+   /* .container {
+      width: auto;
+    }*/
+      .container {
       width: auto;
     }
+    /*.grid-3-12, .grid-6-12, .grid-9-12, .grid-12-12 {
+      width: 100%;
+      float: none;
+    }*/
+
+    .submenu-home {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .submenu-home ul li {
+      display: inline;
+      margin: 20px 0;
+    }
+
   }
 
   @media (max-width: 640px) and (min-width: 480px) {
@@ -170,10 +193,15 @@ h4 {
     .container {
       width: auto;
     }
-    .grid-4-12, .grid-6-12, .grid-9-12, .grid-12-12 {
+    .grid-3-12, .grid-6-12, .grid-9-12, .grid-12-12 {
       width: 100%;
       float: none;
     }
+
+    #advertising-highlight img {
+      max-width: 100px;
+    }
+
   }
 
 

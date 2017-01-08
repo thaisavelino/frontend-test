@@ -26,7 +26,6 @@ section.banner-highligh {
 /* -------- conteúdo central -------- */
 
 .home-main-content{
-
 }
 .home-main-content h2 {
 	border-bottom: 1px solid #C9C9C9;
@@ -39,7 +38,13 @@ section.banner-highligh {
 }
 
 /* gato */
-.home-main-content img {
+.home-cat {
+	margin-right: 0;
+	padding-right: 0;
+	max-width: 22%;
+}
+
+.home-cat img {
 	width: 100%;
 }
 
@@ -50,6 +55,7 @@ section.banner-highligh {
 .submenu-home {
 	border: 1px solid #C9C9C9;
 	padding: 16px;
+	min-width: 200px;
 }
 
 .submenu-home h3 {
@@ -68,8 +74,8 @@ section.banner-highligh {
   	font-weight: 800;
   	font-size: 14px;
 }
-
-.submenu-home ul > li > h4:before {
+ /*Seta dos submenus */
+.submenu-home ul > li > h4:before { 
 	width: 0;
 	height: 0;
 	display: inline-block;
@@ -97,7 +103,7 @@ section.banner-highligh {
 .banner-static {
 	margin: 20px 0;
 	box-sizing: border-box;
-	height: 700px;
+	height: 200px;
 }
 
 .banner-static img {
@@ -121,3 +127,43 @@ section.banner-highligh {
 
 
 /* -------- Itens -------- */
+
+section.boxes-container {
+	position: relative;
+	right: 0;
+	padding-top: 20px;
+	margin-bottom: 80px;
+}
+
+section.home-boxes {
+	font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    width: 220px;
+    height: 180px;
+    border: 1px solid #f7941e;
+    margin: 0 10px;
+    padding: 16px;
+}
+
+section.home-boxes:first-child {
+	margin-left: 0;
+	padding-left: 16px;
+}
+
+section.home-boxes:last-child {
+	margin-right: 0;
+}
+
+.home-boxes img {
+	width: 70px;
+	display: block;
+	margin: 0 auto 16px auto;
+	color: #ec007a;
+}
+
+.home-boxes p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.2;
+}
