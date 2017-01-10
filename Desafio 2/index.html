@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <link type="text/css" rel="stylesheet" href="style.css">
     <title>Teste-2-JS-Thais</title>
 </head>
@@ -24,12 +25,16 @@
                 
     <div class="bottom">
         <div class="add"><!-- form -->
-            <div class="add__container">
-                <input type="text" class="add_name add__description" placeholder="Adicione o nome"> <!-- desc -->
-                <input type="text" class="add_tel add__description" placeholder="Adicione o Telefone"> <!-- desc -->
-                <input type="text" class="add_email add__description" placeholder="Adicione o e-mail"> <!-- desc -->
+            <div class="add_container" >
+                <input type="text" id="nome" class="add_name" placeholder="Adicione o nome"> <!-- desc -->
+                <input type="text" id="telefone" class="add_tel" placeholder="Adicione o Telefone" maxlength="15"> <!-- desc -->
+                <input type="email" id="email" class="add_email" placeholder="Adicione o e-mail"> <!-- desc -->
 
-                <button class="add_btn">Salvar</button>
+                <button onclick="addData();" class="add_btn">Salvar</button>
+                <button onclick="resetData();" class="cancel_btn">Cancelar</button>
+            </div>
+            <div id="error_container" style="display: none;">
+                <span id="error"></span>
             </div>
         </div>
         
@@ -38,38 +43,25 @@
             <div class="contacts-wrap">
                 <h2 class="contacts_title">Lista de Contatos: </h2>
                 
-                <div class="contacts_list">
-                                       
-                    <div class="item clearfix" id="item-0">
+                 <div id="list" class="contacts_list">
+                    <!-- <div class="item clearfix" id="item-0">
                         <div class="item_name">Thais</div>
                         <div class="">
                             <div class="item_tel">(11) 9999-9999</div>
                             <div class="item_email">xxxxxxx@xxxxxxx.xx</div>
                             <div class="item_delete">
-                                <button class="item_delete-btn"><i class="ion-ios-close-outline"></i></button>
+                                <button id="delete" onclick="clearListItem();" class="item_delete-btn"><i class="ion-ios-close-outline"></i></button>
                             </div>
                         </div>
-                    </div>
-                    <div class="item clearfix" id="item-0">
-                        <div class="item_name">Thais</div>
-                        <div class="">
-                            <div class="item_tel">(11) 9999-9999</div>
-                            <div class="item_email">xxxxxxxxxxxxxx@xxxxxxx.xx</div>
-                            <div class="item_delete">
-                                <button class="item_delete-btn"><i class="ion-ios-close-outline"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                                      
- 
-                    
+                    </div>   -->   
                 </div>
+
             </div>
             
         
             
         </div>
         
-        <script src="save.js"></script>
+        <script src="add.js"></script>
     </body>
 </html>
