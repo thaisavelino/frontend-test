@@ -163,5 +163,31 @@ h2 {
 
 .item:hover .item_name, .item:hover .item_tel, .item:hover .item_email { transform: translateX(-10px); }
 
+/* botão delete da lista de contatos */
+.item_delete-btn {
+    color: #ec007a;
+}
 
+.item_delete {
+    float: right;
+    margin-left: 10px;
+}
+
+.item_delete-btn {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    background: none;
+    vertical-align: middle;
+}
+
+.item_delete-btn:focus { outline: none; }
+.item_delete-btn:active {
+    outline: none; 
+    transform: translate(2px);
+}
+
+.item:hover .item_delete-btn { display: block; }
 

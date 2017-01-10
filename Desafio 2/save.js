@@ -8,13 +8,19 @@ var formatController = (function() {
 /*Interface*/
 var UIController = (function() {
 	
+    var CONTACTobject = {
+        inputName: '.add_name',
+        inputTel: '.add_tel',
+        inputEmail: '.add_email'
+    }
+
 	return {
         /*metodo para retornar objeto*/
 		getInput: function() {
             return {
-                name: document.querySelector('.add_name').value,
-                tel: document.querySelector('.add_tel').value,
-                email: document.querySelector('.add_email').value
+                name: document.querySelector(CONTACTobject.inputName).value,
+                tel: document.querySelector(CONTACTobject.inputTel).value,
+                email: document.querySelector(CONTACTobject.inputEmail).value
             };
 			
 		}
