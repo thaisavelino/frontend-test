@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Teste-2-JS-Thais</title>
+</head>
+
+<body>
+ 
+    <div class="home-wrap">
+      
+      <!-- topo -->
+      <header>
+        <div class="header-wrap">
+            <div class="header_title">
+                Meus Contatos
+            </div>
+        </div>
+      </header>   
+
+        
+                
+    <div class="bottom">
+        <div class="add"><!-- form -->
+            <div class="add__container">
+                <input type="text" class="add_name add__description" placeholder="Adicione o nome"> <!-- desc -->
+                <input type="text" class="add_tel add__description" placeholder="Adicione o Telefone"> <!-- desc -->
+                <input type="text" class="add_email add__description" placeholder="Adicione o e-mail"> <!-- desc -->
+
+                <button class="add_btn">Salvar</button>
+            </div>
+        </div>
+        
+        <!-- Contatos salvos -->
+        <div class="container clearfix">
+            <div class="contacts-wrap">
+                <h2 class="contacts_title">Lista de Contatos: </h2>
+                
+                <div class="contacts_list">
+                                       
+                    <div class="item clearfix" id="item-0">
+                        <div class="item_name">Thais</div>
+                        <div class="">
+                            <div class="item_tel">(11) 9999-9999</div>
+                            <div class="item_email">xxxxxxx@xxxxxxx.xx</div>
+                            <div class="item_delete">
+                                <button class="item_delete-btn"><i class="ion-ios-close-outline"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item clearfix" id="item-0">
+                        <div class="item_name">Thais</div>
+                        <div class="">
+                            <div class="item_tel">(11) 9999-9999</div>
+                            <div class="item_email">xxxxxxxxxxxxxx@xxxxxxx.xx</div>
+                            <div class="item_delete">
+                                <button class="item_delete-btn"><i class="ion-ios-close-outline"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                                      
+ 
+                    
+                </div>
+            </div>
+            
+        
+            
+        </div>
+        
+        <script src="save.js"></script>
+    </body>
+</html>
