@@ -1,17 +1,13 @@
 # Teste Front-end - Amil
 Projeto de teste para seleção de candidatos(as) a desenvolvedor(a) Front-end na Amil.
 
-Este teste contém os resultados de dois desafios:
+Este teste contém dois desafios:
 
-- Desafio 1:
-	- Presente no diretório [Desafio 1]
-	- Tecnologia utilizada: **HTML**, **CSS**
-	- Realizado respeitando a semântica, boas práticas, etc.  
-- Desafio 2:
-	- Presente no diretório [Desafio 2]
-	- Tecnologia utilizada: **HTML**, **CSS**, **JavaScript**.
+O primeiro serve para avaliar seu HTML, CSS, semântica, boas práticas, etc.
+O segundo para avaliar o seu JavaScript.
 
 ## Instruções
+Faça um fork do projeto, realize seu teste e ao finalizar, solicite um pull request.
 
 ## Desafio n° 1
 1.- Criar o HTML/CSS de acordo com o layout base fornecido no diretório [layout](./layout).
