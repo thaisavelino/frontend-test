@@ -10,23 +10,23 @@ section.footer-wrap {
     height: 315px;
 }
 
-.footer-nav {
+.footer-nav-wrap {
 
 }
 
-.footer-nav > section > nav {
+.footer-navs {
 	display: block;
 }
 
-section.footer-nav {
+section.footer-nav-wrap {
 	margin-top: 40px;
 }
-.footer-nav h1 {
+.footer-nav-wrap h1 {
 	font-size: 20px;
 	font-weight: 400;
 	margin: 0;
 }
-.footer-nav h2 {
+.footer-nav > dt {
 	font-size: 16px;
 	font-weight: 800;
 	color: #898989;
@@ -34,9 +34,10 @@ section.footer-nav {
 	padding: 20px 0;
 }
 
-.footer-nav ul li a {
+.footer-nav dd a {
 	font-size: 13px;
 	font-weight: 400;
+	line-height: 1.2;
 }
 .general-link {
 	font-size: 13px;
@@ -87,6 +88,9 @@ section.footer-logos {
 	margin-top: 20px;
 }
 
+.logos-wrap > div:last-child {
+	margin-left: 100px;
+}
 
 /* copyright area*/
 .copyright {

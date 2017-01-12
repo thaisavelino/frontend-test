@@ -527,7 +527,10 @@ cite img {
 .plan-box ul li {
     padding: 5px 0;
 }
-
+dl dt {
+    padding: 0;
+    margin: 0;
+}
 
 /* ----------------------------------------------- */
 /* FORM */

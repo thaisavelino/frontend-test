@@ -13,7 +13,8 @@ section.banner-highligh {
 	width: 100%;
 }
 .banner-highlight img{
-	width: 100%;	
+	width: 100%;
+		
 }
 
 
@@ -63,19 +64,26 @@ section.banner-highligh {
 	font-size: 16px;
 	border-bottom: 1px solid #C9C9C9;
 	padding-bottom: 10px;
-	margin-left: 10px;
+	margin-left: 15px;
 }
 
-.submenu-home ul > li > h4 {
-	padding: 10px 0 0;
+
+.submenu-home > nav > dl {
+    padding-left: 10px;
 }
-.submenu-home ul > li > h4, .submenu-home ul > li > h4 > a {
+.submenu-home > nav > dl > dt {
+	padding: 20px 0 0;
+}
+.submenu-home > nav > dl > dt > a {
+	padding-bottom: 20px;
+}
+.submenu-home > nav > dl > dt, .submenu-home dl > dt > a {
  	color: #20b7ce;
   	font-weight: 800;
   	font-size: 14px;
 }
  /*Seta dos submenus */
-.submenu-home ul > li > h4:before { 
+.submenu-home > nav > dl > dt:before { 
 	width: 0;
 	height: 0;
 	display: inline-block;
@@ -85,17 +93,17 @@ section.banner-highligh {
 	border-left: 10px solid #f7941e;
 	content: "";
 	margin: 0 10px 0 0;
-	margin-left: 10px;
+	margin-left: 9px;
 }
 
-.submenu-home ul > li {
-	margin: 10px;
+.submenu-home > nav > dl > dd {
+	margin: 10px 0 0 9px;
 	font-weight: 400;
 }
-.submenu-home ul > li > a {
+
+.submenu-home > nav > dl > dd > a {
 	font-size: 14px;
 	font-weight: 400;
-	margin-left: 10px;
 }
 
 /* -------- Banner Estático -------- */
